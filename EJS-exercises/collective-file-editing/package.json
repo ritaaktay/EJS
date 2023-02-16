@@ -1,0 +1,14 @@
+{
+  "name": "node-testing",
+  "version": "1.0.0",
+  "description": "Testing if node runs on my VS Code",
+  "main": "main.js",
+  "author": "Rita Aktay",
+  "license": "ISC",
+  "dependencies": {
+    "ecstatic": "^4.1.4",
+    "ini": "^3.0.0",
+    "mime": "^2.6.0",
+    "node-fetch": "^3.2.6"
+  }
+}
