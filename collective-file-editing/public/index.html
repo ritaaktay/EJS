@@ -1,0 +1,22 @@
+<!doctype html>
+
+<header>
+    <h1>COLLECTIVE FILE EDITING</h1>
+</header>
+<body>
+    <form>
+        <p>
+            filename: <input type="text" name="filename">
+            <button id="create" value="create" type="submit"> CREATE</button>
+        <p> 
+        <p id="feedback"></p>
+        </p>
+        <p> files: <select name="files"> 
+            <option id= "default" value="default" selected disabled hidden>Choose here</option> 
+        </select> </p>
+        </p> <textarea style="height: 500px; width: 500px" name="content"></textarea>
+        <p> <button id="edit" value="edit" type="submit">SUBMIT</button>
+            <button id="delete" value="del" type="submit">DELETE</button> </p>
+    </form>
+<script src="script.js"></script>
+</body>
